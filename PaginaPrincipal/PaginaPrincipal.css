@@ -1,0 +1,101 @@
+@import url('/BibliotecaEstilo/BibliotecaEstilo.css');
+
+html { 
+
+    font-family: "Inter", sans-serif;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: var(--cor-textoComum);
+
+}
+
+.container__header {
+
+    width: 100%;
+    padding: 16px 56px;
+
+}
+
+.container__header_secao {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    flex: 1; 
+    text-align: center; 
+}
+
+.container__header_secaoLogo-Btn {
+
+    display: flex;
+    align-items: center;
+    gap: 96px;
+
+}
+
+.container__header_secaoNavMenu ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.container__header_secaoBotoes {
+
+    gap: 12px;
+
+}
+
+.btn__entrar {
+
+    background: none !important;
+    border: none !important;
+    color: var(--cor-textoComum) !important;
+
+}
+
+.btn__cadastar {
+
+    background: var(--vermelho-primario) !important;
+    color: var(--branco) !important;
+    border: none !important;
+
+}
+
+.btn__entrar:hover {
+
+    background: none !important;
+    border: none !important;
+    color: var(--cor-textoComum) !important;
+
+}
+
+.btn__entrar:active {
+
+    background: none !important;
+    border: none !important;
+    color: var(--cor-textoComum) !important;
+
+}
+
+.btn__cadastar:hover {
+
+    background: var(--vermelho-primario) !important;
+    color: var(--branco) !important;
+    border: none !important;
+
+}
+
+.btn__cadastar:active {
+
+    background: var(--vermelho-primario) !important;
+    color: var(--branco) !important;
+    border: none !important;
+
+}

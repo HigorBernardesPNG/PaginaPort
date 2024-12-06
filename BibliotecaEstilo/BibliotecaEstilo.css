@@ -1,0 +1,16 @@
+:root {
+
+    /* Cores */
+    --vermelho-primario: #8E2424;
+    --vermelho-baixaOpacidade: #C3191908;
+    --cinza-baixaOpacidade: #F9FAFB;
+    --cor-textoComum: #667085;
+    --cor-textoForte: #101828;
+    --branco: #ffffff;
+
+    /* Peso dos textos */
+    --pesoTexto-medio: 500;
+    --pesoTexto-titulo: 600;
+    --pesoTexto-informativo:400
+
+}
