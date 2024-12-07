@@ -9,6 +9,7 @@ html {
 a {
 
     text-decoration: none;
+    font-weight: var(--pesoTexto-medio);
     color: var(--cor-textoComum);
 
 }
@@ -16,7 +17,8 @@ a {
 .container__header {
 
     width: 100%;
-    padding: 16px 56px;
+    padding: 1em 8em;
+    margin-bottom: 6em;
 
 }
 
@@ -63,6 +65,7 @@ a {
 .btn__cadastar {
 
     background: var(--vermelho-primario) !important;
+    font-weight: var(--pesoTexto-medio);
     color: var(--branco) !important;
     border: none !important;
 
@@ -71,6 +74,7 @@ a {
 .btn__entrar:hover {
 
     background: none !important;
+    font-weight: var(--pesoTexto-medio);
     border: none !important;
     color: var(--cor-textoComum) !important;
 
@@ -79,6 +83,7 @@ a {
 .btn__entrar:active {
 
     background: none !important;
+    font-weight: var(--pesoTexto-medio);
     border: none !important;
     color: var(--cor-textoComum) !important;
 
@@ -87,6 +92,7 @@ a {
 .btn__cadastar:hover {
 
     background: var(--vermelho-primario) !important;
+    font-weight: var(--pesoTexto-medio);
     color: var(--branco) !important;
     border: none !important;
 
@@ -95,7 +101,224 @@ a {
 .btn__cadastar:active {
 
     background: var(--vermelho-primario) !important;
+    font-weight: var(--pesoTexto-medio);
     color: var(--branco) !important;
     border: none !important;
+
+}
+
+.container__sectionsMain {
+
+    text-align: center;
+    margin-bottom: 6em;
+
+}
+
+.container__sectionsMain_Sobre {
+
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+    
+
+}
+
+.container__sectionsMain_Sobre .texto__comum {
+
+    font-size: 16px;
+
+}
+
+.texto__comum {
+
+    font-weight: var(--pesoTexto-titulo);
+
+}
+
+.texto__vermelho {
+
+    color: var(--vermelho-primario);
+
+}
+
+.container__sectionsMain_Sobre .texto__titulo {
+
+    font-size: 40px;
+
+}
+
+.texto__titulo {
+    
+    font-weight: var(--pesoTexto-titulo);
+    
+}
+
+.texto__escuro {
+
+    color: var(--cor-textoForte);
+
+}
+
+.container__textoInformativo {
+
+    width: 47em;
+
+}
+
+.container__sectionsMain_Sobre .texto__informativo {
+
+    font-size: 20px;
+
+}
+
+.texto__informativo {
+
+    font-weight: var(--pesoTexto-informativo);
+    color: var(--cor-textoComum);
+
+}
+
+.container__sectionsProjetos {
+
+    padding: 0 2em;
+    margin-bottom: 6em;
+
+}
+
+.container__sectionsProjetos_informacoes {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.container__sectionsVagas {
+
+    margin-bottom: 6em;
+
+}
+
+.container__sectionsProjetos_informacoesContainer {
+
+    text-align: start;
+    width: 16em;
+
+}
+
+.container__sectionsProjetos_informacoes .texto__titulo {
+
+    font-size: 60px;
+
+}
+
+.container__sectionsProjetos_informacoes .texto__comum{
+
+    font-size: 18px;
+    margin: 16px 0;
+
+}
+
+.container__sectionsProjetos_informacoes .texto__informativo {
+
+    font-size: 16px;
+
+}
+
+.container__sectionsVagas_primeirasInformacoes {
+
+    display: flex;
+    padding: 0 4em;
+    margin-bottom: -4em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.container__sectionsVagas_primeirasInformacoes .texto__comumMenor {
+
+    font-size: 14px;
+    
+}
+
+.container__sectionsVagas_primeirasInformacoes .texto__titulo {
+
+    font-size: 36px;
+    
+}
+
+.container__sectionsVagas_primeirasInformacoes .texto__informativo {
+
+    font-size: 20px;
+    
+}
+
+.container__sectionsVagas_primeirasInformacoes .texto__comumMenor {
+
+    padding: 8px;
+    border-radius: 8em;
+    background-color: var(--fundoVermelho-baixaOpacidade);
+
+}
+
+.texto__comumMenor {
+    
+    font-weight: var(--pesoTexto-medio  );
+    
+}
+
+.imagemReunião {
+
+    margin-top: 3em;
+    max-width: 100%;
+    border-radius: 4em;
+    height: auto;
+    
+}
+
+.container__sections_DetalhesVagConjunto {
+
+    display: flex;
+    text-align: start;
+    padding: 0 18em;
+    gap: 2em;
+    flex-direction: column;
+
+}
+
+.container__sections_DetalhesVagConjunto .texto__comumMenor {
+
+    margin: 2em 2em .5em 0;
+    font-size: 20px;
+
+}
+
+.container__sections_DetalhesVagContainer {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: solid 1px rgba(234, 236, 240, 1);
+    box-shadow:  0px 0px 8px rgba(234, 236, 240, 1);
+    border-radius: 16px;
+    padding: 2em;
+    
+}
+
+.container__sections_DetalhesVagContainer .texto__comumMenor {
+
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.container__sections_DetalhesVagContainer .texto__informativo {
+
+    font-size: 16px;
 
 }

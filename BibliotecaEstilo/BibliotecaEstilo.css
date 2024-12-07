@@ -2,6 +2,7 @@
 
     /* Cores */
     --vermelho-primario: #8E2424;
+    --fundoVermelho-baixaOpacidade: rgba(142, 36, 36, 0.05);
     --vermelho-baixaOpacidade: #C3191908;
     --cinza-baixaOpacidade: #F9FAFB;
     --cor-textoComum: #667085;
