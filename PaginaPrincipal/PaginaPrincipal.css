@@ -364,7 +364,9 @@ a {
 
 .container__sectionsColaboradores_comentariosColaboradores img {
 
-    width: 3em;
+    width: 5em;
+    height: auto;
+    border-radius: 18px;
 
 }
 
@@ -424,7 +426,14 @@ footer .texto__informativo {
 
 .container__sectionsAcompanhe_oportunidadesCadastro .form-control {
 
+    border: 1px solid var(--vermelho-primario);
     width: 360px;
     height: 48px;
+
+}
+
+.container__sectionsAcompanhe_oportunidadesCadastro .form-control:hover, .form-control:focus {
+
+    box-shadow:  0px 0px 0px 2px var(--vermelho-primario);
 
 }
