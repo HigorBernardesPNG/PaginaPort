@@ -54,51 +54,15 @@ a {
 
 }
 
-.btn__entrar {
-
+.btn__entrar, .btn__entrar:hover, .btn__entrar:active {
     background: none !important;
     border: none !important;
+    font-weight: var(--pesoTexto-medio);
     color: var(--cor-textoComum) !important;
 
 }
 
-.btn__cadastar {
-
-    background: var(--vermelho-primario) !important;
-    font-weight: var(--pesoTexto-medio);
-    color: var(--branco) !important;
-    border: none !important;
-
-}
-
-.btn__entrar:hover {
-
-    background: none !important;
-    font-weight: var(--pesoTexto-medio);
-    border: none !important;
-    color: var(--cor-textoComum) !important;
-
-}
-
-.btn__entrar:active {
-
-    background: none !important;
-    font-weight: var(--pesoTexto-medio);
-    border: none !important;
-    color: var(--cor-textoComum) !important;
-
-}
-
-.btn__cadastar:hover {
-
-    background: var(--vermelho-primario) !important;
-    font-weight: var(--pesoTexto-medio);
-    color: var(--branco) !important;
-    border: none !important;
-
-}
-
-.btn__cadastar:active {
+.btn__cadastar,  .btn__cadastar:hover, .btn__cadastar:active{
 
     background: var(--vermelho-primario) !important;
     font-weight: var(--pesoTexto-medio);
