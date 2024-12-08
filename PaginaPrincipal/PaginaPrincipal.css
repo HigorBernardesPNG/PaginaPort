@@ -155,12 +155,6 @@ a {
     
 }
 
-.texto__escuro {
-
-    color: var(--cor-textoForte);
-
-}
-
 .container__textoInformativo {
 
     width: 47em;
@@ -196,7 +190,7 @@ a {
 
 }
 
-.container__sectionsVagas {
+.container__sectionsVagas, .container__sections_DetalhesVagas, .container__sectionsColaboradores {
 
     margin-bottom: 6em;
 
@@ -228,15 +222,20 @@ a {
 
 }
 
-.container__sectionsVagas_primeirasInformacoes {
+.container__sectionsVagas_primeirasInformacoes, .container__sectionsColaboradores_comentarios {
 
     display: flex;
-    padding: 0 4em;
     margin-bottom: -4em;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 1em;
+
+}
+
+.container__sectionsVagas_primeirasInformacoes, .container__sectionsColaboradores_comentarios, .container__sectionsColaboradores {
+
+    padding:0 4em;
 
 }
 
@@ -262,6 +261,11 @@ a {
 
     padding: 8px;
     border-radius: 8em;
+
+}
+
+.background__texto {
+
     background-color: var(--fundoVermelho-baixaOpacidade);
 
 }
@@ -276,17 +280,22 @@ a {
 
     margin-top: 3em;
     max-width: 100%;
-    border-radius: 4em;
+    border-radius: 8px;
     height: auto;
     
 }
 
 .container__sections_DetalhesVagConjunto {
 
-    display: flex;
+    gap: 2em;
     text-align: start;
     padding: 0 18em;
-    gap: 2em;
+    
+}
+
+.container__sections_DetalhesVagConjunto, .container__sectionsColaboradores_comentarios {
+
+    display: flex;
     flex-direction: column;
 
 }
@@ -320,5 +329,102 @@ a {
 .container__sections_DetalhesVagContainer .texto__informativo {
 
     font-size: 16px;
+
+}
+
+.container__sectionsColaboradores_comentarios {
+
+    gap: 2em;
+    border-radius: 16px;
+    background-color: var(--fundoVermelho-baixaOpacidade);
+    padding: 3em 0;
+
+}
+
+.container__sectionsColaboradores_comentariosInformativa, .container__sectionsColaboradores_comentariosColaboradores {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.container__sectionsColaboradores_comentariosInformativa .texto__titulo {
+
+    font-size: 14px;
+
+}
+
+.container__sectionsColaboradores_comentariosInformativa .texto__comum {
+
+    font-size: 36px;
+
+}
+
+.container__sectionsColaboradores_comentariosColaboradores img {
+
+    width: 3em;
+
+}
+
+.container__sectionsColaboradores_comentariosColaboradores .texto__comum {
+
+    font-size: 16px;
+
+}
+
+.container__sectionsColaboradores_comentariosColaboradores .texto__informativo {
+
+    font-size: 14px;
+
+}
+
+footer {
+
+    text-align: center;
+    padding: 4em;
+
+}
+
+footer .texto__informativo {
+
+    font-size: 16px;
+
+}
+
+.container__sectionsAcompanhe_oportunidades, .container__sectionsAcompanhe_oportunidadesTextos, footer {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.container__sectionsAcompanhe_oportunidadesTextos .texto__titulo {
+
+    font-size: 36px;
+
+}
+
+.container__sectionsAcompanhe_oportunidadesTextos .texto__informativo {
+
+    font-size: 20px;
+
+}
+
+.container__sectionsAcompanhe_oportunidadesCadastro {
+
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+
+}
+
+.container__sectionsAcompanhe_oportunidadesCadastro .form-control {
+
+    width: 360px;
+    height: 48px;
 
 }
