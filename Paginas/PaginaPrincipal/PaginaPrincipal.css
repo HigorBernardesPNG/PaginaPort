@@ -14,7 +14,13 @@ header, footer {
 
 header {
 
-    border-bottom: solid 1px var(--preto-hover);
+    box-shadow: 0px 2px 4px 0px var(--preto-hover);
+
+}
+
+.container__header_secaoLogo img {
+
+    max-width: 8em;
 
 }
 
@@ -363,9 +369,7 @@ header {
 
 .container__sectionsColaboradores_comentariosColaboradores img {
 
-    width: 5em;
     height: auto;
-    border-radius: 18px;
 
 }
 
@@ -385,7 +389,12 @@ footer {
 
     text-align: center;
     padding: 4em;
-    border-top: solid 1px var(--preto-hover);
+
+}
+
+footer img {
+
+    width: 8em;
 
 }
 
@@ -398,6 +407,7 @@ footer .texto__informativo {
 .container__sectionsAcompanhe_oportunidades, .container__sectionsAcompanhe_oportunidadesTextos, footer {
 
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 2em;
 
