@@ -12,6 +12,12 @@ header, footer {
 
 }
 
+header {
+
+    border-bottom: solid 1px var(--preto-hover);
+
+}
+
 .container__header_secaoNavMenu a {
 
     text-decoration: none;
@@ -379,6 +385,7 @@ footer {
 
     text-align: center;
     padding: 4em;
+    border-top: solid 1px var(--preto-hover);
 
 }
 
