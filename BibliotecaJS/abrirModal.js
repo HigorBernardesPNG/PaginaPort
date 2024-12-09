@@ -29,10 +29,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Abrir o modal quando o botão abrir for clicado
         botaoAbrir.addEventListener('click', function() {
+            console.log("O click esta funcionando")
             $(`#${idModal}`).modal('show');
         });
     }
 console.log ("sexo");
     // Exemplo de uso
-    configurarModal('modalCadastro', 'img__button', 'btnCadastroHeader');
+    configurarModal('modalCadastro', 'btnFecharModal', 'btnCadastroHeader');
 });
