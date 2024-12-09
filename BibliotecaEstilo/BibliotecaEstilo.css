@@ -2,10 +2,12 @@
 
     /* Cores */
     --vermelho-primario: #8E2424;
+    --cinza-primario: #EEF1F9;
     --fundoVermelho-baixaOpacidade: rgba(142, 36, 36, 0.05);
     --vermelho-baixaOpacidade: #C3191908;
     --cinza-baixaOpacidade: #F9FAFB;
     --cor-textoComum: #667085;
+    --preto-hover: #252525b7;
     --branco: #ffffff;
 
     /* Peso dos textos */

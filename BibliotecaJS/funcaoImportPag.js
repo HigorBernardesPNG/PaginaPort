@@ -23,5 +23,5 @@ function importarHTML(caminhoDoArquivo, idElementoDestino) {
 
 // - Chamando a função -
 
-importarHTML('../HtmlExport/header.html', 'secaoHeader');
+importarHTML('/HtmlExport/header.html', 'secaoHeader');
 

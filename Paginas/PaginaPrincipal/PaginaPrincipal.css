@@ -6,11 +6,26 @@ html {
 
 }
 
-a {
+header, footer {
+
+    background-color: var(--cinza-primario);
+
+}
+
+.container__header_secaoNavMenu a {
 
     text-decoration: none;
     font-weight: var(--pesoTexto-medio);
     color: var(--cor-textoComum);
+
+}
+
+.container__header_secaoNavMenu a:hover {
+  
+    transition: padding-bottom 0.1s linear;
+    padding-bottom: .3em;
+    border-radius: .2em;
+    border-bottom: solid 2px var(--vermelho-primario);
 
 }
 
@@ -68,6 +83,19 @@ a {
     font-weight: var(--pesoTexto-medio);
     color: var(--branco) !important;
     border: none !important;
+
+}
+
+.btn__cadastar {
+
+    transition: box-shadow 0.4s linear !important; 
+
+}
+
+.btn__cadastar:hover {
+
+    transition: box-shadow 0.2s linear !important; 
+    box-shadow: inset 0 0 10px var(--preto-hover) !important;
 
 }
 
@@ -199,7 +227,7 @@ a {
 
 .container__sectionsVagas_primeirasInformacoes, .container__sectionsColaboradores_comentarios, .container__sectionsColaboradores {
 
-    padding:0 4em;
+    padding:0 8em;
 
 }
 
@@ -253,7 +281,7 @@ a {
 
     gap: 2em;
     text-align: start;
-    padding: 0 18em;
+    padding: 0 24em;
     
 }
 
@@ -261,6 +289,7 @@ a {
 
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 
 }
 
@@ -391,6 +420,7 @@ footer .texto__informativo {
 .container__sectionsAcompanhe_oportunidadesCadastro .form-control {
 
     border: 1px solid var(--vermelho-primario);
+    transition: box-shadow 0.4s linear;
     width: 360px;
     height: 48px;
 
@@ -398,6 +428,7 @@ footer .texto__informativo {
 
 .container__sectionsAcompanhe_oportunidadesCadastro .form-control:hover, .form-control:focus {
 
+    transition: box-shadow 0.2s linear;
     box-shadow:  0px 0px 0px 2px var(--vermelho-primario);
 
 }
