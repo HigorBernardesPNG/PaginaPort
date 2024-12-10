@@ -1,39 +1,44 @@
-document.addEventListener('DOMContentLoaded', function() {
-    function configurarModal(idModal, idBotaoAbrir, idBotaoFechar) {
-        var modal = document.getElementById(idModal);
-        var botaoAbrir = document.getElementById(idBotaoAbrir);
-        var botaoFechar = document.getElementById(idBotaoFechar);
-
-        if (!modal || !botaoAbrir || !botaoFechar) {
-            console.error('Um ou mais elementos não foram encontrados. Verifique os IDs fornecidos.');
-            return;
-        }
-
-        // Função para esconder o modal aplicando display: none com !important
-        function esconderModal() {
-            modal.style.setProperty('display', 'none', 'important');
-            $('body').removeClass('modal-open'); // Remover a classe que impede a rolagem
-            $('.modal-backdrop').remove(); // Remover a sobreposição do fundo
-        }
-
-        // Fechar o modal quando o botão de fechar for clicado
-        botaoFechar.addEventListener('click', function() {
-            $(`#${idModal}`).modal('hide');
-            esconderModal();
-        });
-
-        // Fechar o modal ao clicar fora dele ou no botão de fechar
-        $(`#${idModal}`).on('hidden.bs.modal', function() {
-            esconderModal();
-        });
-
-        // Abrir o modal quando o botão abrir for clicado
-        botaoAbrir.addEventListener('click', function() {
-            console.log("O click esta funcionando")
-            $(`#${idModal}`).modal('show');
-        });
+function configurarModal(idModal, idBotaoAbrir, idBotaoFechar) {
+    function esperarElementoDisponivel(id, callback) {
+        const verificarElemento = setInterval(() => {
+            const elemento = document.getElementById(id);
+            if (elemento) {
+                clearInterval(verificarElemento);
+                callback(elemento);
+            }
+        }, 100); 
     }
-console.log ("sexo");
-    // Exemplo de uso
-    configurarModal('modalCadastro', 'btnFecharModal', 'btnCadastroHeader');
+
+    esperarElementoDisponivel(idModal, (modal) => {
+        esperarElementoDisponivel(idBotaoAbrir, (botaoAbrir) => {
+            esperarElementoDisponivel(idBotaoFechar, (botaoFechar) => {
+                console.log('Elementos do modal encontrados:', { modal, botaoAbrir, botaoFechar });
+
+                function abrirModal() {
+                    console.log(`Abrindo o seguinte modal: ${idModal}`);
+                    modal.style.display = 'block';
+                }
+
+                function fecharModal() {
+                    console.log(`Fechando o seguinte modal: ${idModal}`);
+                    modal.style.display = 'none';
+                }
+
+                botaoAbrir.addEventListener('click', function () {
+                    abrirModal();
+                });
+
+                botaoFechar.addEventListener('click', function () {
+                    fecharModal();
+                });
+            });
+        });
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    console.log('DOM carregado.');
+
+    configurarModal('modalCadastro', 'btnCadastroHeader', 'btnFecharModal');
+    // configurarModal('modalOutro', 'btnOutroHeader', 'btnFecharOutro'); // Exemplo de outro modal
 });
