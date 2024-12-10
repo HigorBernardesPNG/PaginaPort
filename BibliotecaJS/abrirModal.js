@@ -39,6 +39,6 @@ function configurarModal(idModal, idBotaoAbrir, idBotaoFechar) {
 document.addEventListener('DOMContentLoaded', function () {
     console.log('DOM carregado.');
 
-    configurarModal('modalCadastro', 'btnCadastroHeader', 'btnFecharModal');
-    // configurarModal('modalOutro', 'btnOutroHeader', 'btnFecharOutro'); // Exemplo de outro modal
+    configurarModal('modalCadastro', 'btnCadastroHeader', 'btnFecharModalCadastroHeader');
+    configurarModal('modalLogin', 'btnLoginHeader', 'btnFecharModalLoginHeader'); // Exemplo de outro modal
 });

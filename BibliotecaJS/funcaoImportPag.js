@@ -21,3 +21,4 @@ importarHTML('/HtmlExport/header.html', 'secaoHeader');
 
 importarHTML('/Paginas/modalCadastro/modalCadastro.html', 'secaoModalCadastro');
 
+importarHTML('/Paginas/modalLogin/modalLogin.html' , 'secaoModalLogin');
