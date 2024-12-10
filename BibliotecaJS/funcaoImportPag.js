@@ -17,8 +17,8 @@ function importarHTML(caminhoDoArquivo, idElementoDestino) {
         });
 }
 
-importarHTML('/HtmlExport/header.html', 'secaoHeader');
+importarHTML('../HtmlExport/header.html', 'secaoHeader');
 
-importarHTML('/Paginas/modalCadastro/modalCadastro.html', 'secaoModalCadastro');
+importarHTML('../Paginas/modalCadastro/modalCadastro.html', 'secaoModalCadastro');
 
-importarHTML('/Paginas/modalLogin/modalLogin.html' , 'secaoModalLogin');
+importarHTML('../Paginas/modalLogin/modalLogin.html', 'secaoModalLogin');

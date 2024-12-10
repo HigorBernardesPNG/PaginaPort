@@ -1,4 +1,4 @@
-@import url(/BibliotecaEstilo/BibliotecaEstilo.css);
+@import url(../../BibliotecaEstilo/BibliotecaEstilo.css);
 
 .modal.fade .modal-dialog {
     transition: transform .3s ease-out;
