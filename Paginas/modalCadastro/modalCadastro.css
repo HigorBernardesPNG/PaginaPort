@@ -1,12 +1,106 @@
 @import url(/BibliotecaEstilo/BibliotecaEstilo.css);
 
-.container__modalCadastro {
-
-    top: 25vh;
-
-}
-
 .modal.fade .modal-dialog {
     transition: transform .3s ease-out;
     transform: translate(0, 0px) !important;
+}
+
+.container__modalCadastro_conteudo {
+
+    padding: 10em 0em;
+
+}
+
+.modal-header .texto__titulo {
+
+    font-size: 24px;
+
+}
+
+.modal-header .texto__informativo {
+
+    font-size: 12px;
+
+}
+
+.container__modalCadastro_conteudoMain {
+
+ padding: 2em;
+ text-align: start;
+
+}
+
+.btn-close {
+
+    box-shadow:  0px 0px 0px 1px var(--vermelho-primario) !important;
+    transition: box-shadow 0.4s linear;
+
+}
+
+.btn-close:focus, .btn-close:hover {
+
+    transition: box-shadow 0.2s linear;
+    box-shadow:  0px 0px 0px 2px var(--vermelho-primario) !important;
+
+}
+
+.container__modalCadastro_conteudoCojunto {
+
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container__modalCadastro_conteudoImagens {
+
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+
+
+}
+
+.container__modalCadastro_conteudoImagens img:hover {
+
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    border-radius: 8px;
+    transition: box-shadow 0.4s linear;
+
+
+}
+
+.container__modalCadastro_conteudoImagens img:hover {
+
+    transition: box-shadow 0.2s linear;
+    box-shadow:  0px 0px 0px 1px var(--vermelho-primario);
+
+}
+
+.modal-footer {
+
+    justify-content: center;
+
+}
+
+.modal-footer img {
+
+    width: 12em;
+
+}
+
+.btn__modal {
+
+    width: 8em;
+
+}
+
+.modal-footer .texto__comum {
+
+    font-size: 12px;
+
 }
