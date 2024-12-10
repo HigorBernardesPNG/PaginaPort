@@ -5,7 +5,7 @@ function importarHTML(caminhoDoArquivo, idElementoDestino) {
         .then(response => {
 
             if (!response.ok) {
-                alert ("Erro de conexão. Tente recarregar o site, caso o problema persista, contate os administradores.");
+                console.log ("Erro de conexão. Tente recarregar o site, caso o problema persista, contate os administradores.");
             }
             return response.text(); 
         })
@@ -17,8 +17,8 @@ function importarHTML(caminhoDoArquivo, idElementoDestino) {
         });
 }
 
-importarHTML('../HtmlExport/header.html', 'secaoHeader');
+importarHTML('../../HtmlExport/header.html', 'secaoHeader');
 
-importarHTML('../Paginas/modalCadastro/modalCadastro.html', 'secaoModalCadastro');
+importarHTML('../../Paginas/modalCadastro/modalCadastro.html', 'secaoModalCadastro');
 
-importarHTML('../Paginas/modalLogin/modalLogin.html', 'secaoModalLogin');
+importarHTML('../../Paginas/modalLogin/modalLogin.html', 'secaoModalLogin');
