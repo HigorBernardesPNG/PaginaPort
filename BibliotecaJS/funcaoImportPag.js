@@ -19,6 +19,8 @@ function importarHTML(caminhoDoArquivo, idElementoDestino) {
 
 importarHTML('../../HtmlExport/header.html', 'secaoHeader');
 
+importarHTML('../../HtmlExport/footer.html', 'secaoFooter');
+
 importarHTML('../../Paginas/modalCadastro/modalCadastro.html', 'secaoModalCadastro');
 
 importarHTML('../../Paginas/modalLogin/modalLogin.html', 'secaoModalLogin');

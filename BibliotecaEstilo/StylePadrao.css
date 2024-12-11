@@ -1,0 +1,167 @@
+@import url('../../BibliotecaEstilo/BibliotecaEstilo.css');
+
+html { 
+
+    font-family: "Inter", sans-serif;
+
+}
+
+header, footer {
+
+    background-color: var(--cinza-primario);
+
+}
+
+header {
+
+    box-shadow: 0px 2px 4px 0px var(--preto-hover);
+
+}
+
+.container__header_secaoLogo img {
+
+    max-width: 8em;
+
+}
+
+.container__header_secaoNavMenu a {
+
+    text-decoration: none;
+    font-weight: var(--pesoTexto-medio);
+    color: var(--cor-textoComum);
+    transition: padding-bottom 0.2s linear , border-bottom 0.2s linear;
+
+}
+
+.container__header_secaoNavMenu a:hover {
+  
+    transition: padding-bottom 0.1s linear;
+    padding-bottom: .3em;
+    border-radius: .2em;
+    border-bottom: solid 2px var(--vermelho-primario);
+
+}
+
+.container__header {
+
+    width: 100%;
+    padding: 1em 8em;
+    margin-bottom: 6em;
+
+}
+
+.container__header_secao {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    flex: 1; 
+    text-align: center; 
+}
+
+.container__header_secaoLogo-Btn {
+
+    display: flex;
+    align-items: center;
+    gap: 96px;
+
+}
+
+.container__header_secaoNavMenu ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.container__header_secaoBotoes {
+
+    gap: 12px;
+
+}
+
+.btn__entrar, .btn__entrar:hover, .btn__entrar:active {
+    background: none !important;
+    border: none !important;
+    font-weight: var(--pesoTexto-medio);
+    color: var(--cor-textoComum) !important;
+
+}
+
+.btn__cadastar,  .btn__cadastar:hover, .btn__cadastar:active{
+
+    background: var(--vermelho-primario) !important;
+    font-weight: var(--pesoTexto-medio);
+    color: var(--branco) !important;
+    border: none !important;
+
+}
+
+.btn__cadastar {
+
+    transition: box-shadow 0.4s linear !important; 
+
+}
+
+.btn__cadastar:hover {
+
+    transition: box-shadow 0.2s linear !important; 
+    box-shadow: inset 0 0 10px var(--preto-hover) !important;
+
+}
+
+.container__sectionsMain {
+
+    text-align: center;
+    margin-bottom: 6em;
+
+}
+
+footer {
+
+    text-align: center;
+    padding: 4em;
+
+}
+
+footer img {
+
+    width: 8em;
+
+}
+
+footer .texto__informativo {
+
+    font-size: 16px;
+
+}
+
+.container__sectionsAcompanhe_oportunidades, .container__sectionsAcompanhe_oportunidadesTextos, footer {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.container__sectionsAcompanhe_oportunidadesTextos .texto__titulo {
+
+    font-size: 36px;
+
+}
+
+.container__sectionsAcompanhe_oportunidadesTextos .texto__informativo {
+
+    font-size: 20px;
+
+}
+
+
+.container__modalCadastro_conteudoImagensFooter img {
+
+    width: 4em;
+
+}

@@ -1,0 +1,28 @@
+@import url('../../BibliotecaEstilo/StylePadrao.css');
+@import url('../../BibliotecaEstilo/BibliotecaEstilo.css');
+@import url('../PaginaPrincipal/PaginaPrincipal.css');
+@import url('../modalCadastro/modalCadastro.css');
+
+.container__textoInformativo .texto__informativo {
+
+    text-align: start;
+
+}
+
+.container__sectionsColaboradores_comentariosInformativa .texto__comum {
+    text-align: start;
+    padding: 2em;
+
+}
+
+.container__sectionsColaboradores_comentariosInformativa .texto__comum {
+
+    font-size: 16px;
+
+}
+
+.container__sectionsVagas_primeirasInformacoes video {
+
+    width: 12em;
+
+}

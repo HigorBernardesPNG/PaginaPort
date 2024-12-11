@@ -1,0 +1,41 @@
+@import url('../../BibliotecaEstilo/StylePadrao.css');
+@import url('../../BibliotecaEstilo/BibliotecaEstilo.css');
+@import url('../PaginaPrincipal/PaginaPrincipal.css');
+@import url('../modalCadastro/modalCadastro.css');
+
+.container__textoInformativo {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+
+}
+
+.container__textoInformativo {
+
+    text-align: start; 
+
+}
+
+.container__sectionsColaboradores_comentariosInformativa, .container__sectionsColaboradores_comentariosColaboradores {
+
+    gap: 2em;
+
+}
+
+.container__sectionsColaboradores_comentariosInformativa .texto__comum {
+
+    font-size: 16px;
+
+}
+
+.container__sections_DetalhesVagContainer_logoAlura {
+
+    text-align: end;
+
+}
+
+.container__sectionsColaboradores_comentariosInformativa img {
+
+    width: 12em;
+
+}
