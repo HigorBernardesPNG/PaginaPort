@@ -2,6 +2,17 @@
 @import url('../../BibliotecaEstilo/StylePadrao.css');
 @import url(../modalCadastro/modalCadastro.css);
 
+
+@media (max-width: 768px) {
+
+    html, body {
+
+        /* overflow-x: hidden; */
+    
+    }
+
+}
+
 .container__sectionsMain_Sobre {
 
     display: flex;
@@ -16,6 +27,16 @@
 .container__sectionsMain_Sobre .texto__comum {
 
     font-size: 16px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container__sectionsMain_Sobre .texto__comum {
+
+        font-size: 8px;
+    
+    }
 
 }
 
@@ -37,6 +58,16 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__sectionsMain_Sobre .texto__titulo {
+
+        font-size: 20px;
+    
+    }
+
+}
+
 .texto__titulo {
     
     font-weight: var(--pesoTexto-titulo);
@@ -49,9 +80,30 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__textoInformativo {
+
+        width: auto;
+    
+    }
+
+}
+
+
 .container__sectionsMain_Sobre .texto__informativo {
 
     font-size: 20px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container__sectionsMain_Sobre .texto__informativo {
+
+        font-size: 10px;
+    
+    }
 
 }
 
@@ -77,6 +129,19 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__sectionsProjetos_informacoes {
+
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+
+}
+
 .container__sectionsVagas, .container__sections_DetalhesVagas, .container__sectionsColaboradores {
 
     margin-bottom: 6em;
@@ -96,6 +161,16 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__sectionsProjetos_informacoes .texto__titulo {
+
+        font-size: 30px;
+    
+    }
+
+}
+
 .container__sectionsProjetos_informacoes .texto__comum{
 
     font-size: 18px;
@@ -103,9 +178,29 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__sectionsProjetos_informacoes .texto__comum{
+
+        font-size: 9px;
+    
+    }
+
+}
+
 .container__sectionsProjetos_informacoes .texto__informativo {
 
     font-size: 16px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container__sectionsProjetos_informacoes .texto__informativo {
+
+        font-size: 8px;
+    
+    }
 
 }
 
@@ -126,10 +221,30 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__sectionsVagas_primeirasInformacoes, .container__sectionsColaboradores_comentarios, .container__sectionsColaboradores {
+
+        padding:0 0em;
+    
+    }
+
+}
+
 .container__sectionsVagas_primeirasInformacoes .texto__comumMenor {
 
     font-size: 14px;
     
+}
+
+@media (max-width: 768px) {
+
+    .container__sectionsVagas_primeirasInformacoes .texto__comumMenor {
+
+        font-size: 7px;
+        
+    }
+
 }
 
 .container__sectionsVagas_primeirasInformacoes .texto__titulo {
@@ -138,10 +253,30 @@
     
 }
 
+@media (max-width: 768px) {
+
+    .container__sectionsVagas_primeirasInformacoes .texto__titulo {
+
+        font-size: 18px;
+        
+    }
+
+}
+
 .container__sectionsVagas_primeirasInformacoes .texto__informativo {
 
     font-size: 20px;
     
+}
+
+@media (max-width: 768px) {
+
+    .container__sectionsVagas_primeirasInformacoes .texto__informativo {
+
+        font-size: 10px;
+        
+    }
+
 }
 
 .container__sectionsVagas_primeirasInformacoes .texto__comumMenor {
@@ -180,6 +315,18 @@
     
 }
 
+@media (max-width: 768px) {
+
+    .container__sections_DetalhesVagConjunto {
+
+        gap: 2em;
+        text-align: start;
+        padding: 0 0em;
+        
+    }
+
+}
+
 .container__sections_DetalhesVagConjunto, .container__sectionsColaboradores_comentarios {
 
     display: flex;
@@ -192,6 +339,17 @@
 
     margin: 2em 2em .5em 0;
     font-size: 20px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container__sections_DetalhesVagConjunto .texto__comumMenor {
+
+        margin: 2em 2em .5em 0;
+        font-size: 10px;
+    
+    }
 
 }
 
@@ -214,9 +372,29 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__sections_DetalhesVagContainer .texto__comumMenor {
+
+        font-size: 9px;
+    
+    }
+
+}
+
 .container__sections_DetalhesVagContainer .texto__informativo {
 
     font-size: 16px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container__sections_DetalhesVagContainer .texto__informativo {
+
+        font-size: 8px;
+    
+    }
 
 }
 
@@ -244,9 +422,29 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__sectionsColaboradores_comentariosInformativa .texto__titulo {
+
+        font-size: 7px;
+    
+    }
+
+}
+
 .container__sectionsColaboradores_comentariosInformativa .texto__comum {
 
     font-size: 36px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container__sectionsColaboradores_comentariosInformativa .texto__comum {
+
+        font-size: 18px;
+    
+    }
 
 }
 
@@ -262,8 +460,28 @@
 
 }
 
+@media (max-width: 768px) {
+
+    .container__sectionsColaboradores_comentariosColaboradores .texto__comum {
+
+        font-size: 8px;
+    
+    }
+
+}
+
 .container__sectionsColaboradores_comentariosColaboradores .texto__informativo {
 
     font-size: 14px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container__sectionsColaboradores_comentariosColaboradores .texto__informativo {
+
+        font-size: 7px;
+    
+    }
 
 }
