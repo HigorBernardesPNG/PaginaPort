@@ -1,0 +1,19 @@
+@import url('../../BibliotecaEstilo/StylePadrao.css');
+@import url('../../BibliotecaEstilo/BibliotecaEstilo.css');
+@import url('../../Paginas/PaginaPrincipal/PaginaPrincipal.css');
+@import url('../modalCadastro/modalCadastro.css');
+
+.container__sectionsVagas_primeirasInformacoes video {
+
+    width: 24em;
+
+}
+
+.container__textoInformativo {
+
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   text-align: start;
+
+}
