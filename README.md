@@ -1,9 +1,6 @@
 ![image](https://github.com/user-attachments/assets/102d852c-c36e-4d5c-ace5-7df6e84aa8a0)
 🎥 [Clique aqui para ver a animação do logo](https://hbtech-gilt.vercel.app/Img/LogoAnimadaVideoTeste.mp4)
 
-📘 README Sugerido para o repositório PaginaPort
-markdown
-Copiar código
 # 🌐 PaginaPort
 
 Este repositório contém uma **página web de portfólio** desenvolvida com foco em apresentação pessoal/profissional e compatibilidade com dispositivos móveis.
